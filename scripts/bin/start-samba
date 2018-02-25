@@ -1,0 +1,8 @@
+#/bin/bash
+
+sudo mount -o remount,rw /
+sudo mount -o remount,rw /boot
+
+sudo mkdir -p /var/log/samba
+sudo mkdir -p /var/cache/samba
+sudo /etc/init.d/samba restart

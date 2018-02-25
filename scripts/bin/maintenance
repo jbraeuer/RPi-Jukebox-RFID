@@ -1,0 +1,11 @@
+#/bin/bash
+
+set -e
+
+echo "Enable MAINTENANCE mode. Make sure to restart with 'bin/reboot' !"
+
+BASE=$(dirname $(readlink -f $0))
+$BASE/rw
+$BASE/start-samba
+
+echo "Maintenance mode enabled."
