@@ -1,5 +1,6 @@
 playlists/
 *~
+*.pyc
 shared/audiofolders
 shared/shortcuts
 shared/latestID.txt
