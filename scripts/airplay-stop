@@ -1,0 +1,5 @@
+#! /bin/bash
+logger "AirPlay session stop: $@"
+amixer sset Master 50%
+
+

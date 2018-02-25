@@ -1,0 +1,7 @@
+#!/bin/bash
+for pin in 17 22 24 5 13; do
+    gpio -g mode $pin out
+    gpio -g write $pin 1
+done
+
+ 

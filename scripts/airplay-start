@@ -1,0 +1,5 @@
+#! /bin/bash
+logger "AirPlay session start: $@"
+echo 'stop' | nc.openbsd -w 1 localhost 4212
+amixer sset Master 100%
+
