@@ -42,6 +42,8 @@
           <a href='?player=play' class='btn btn-default'><i class='fa fa-play'></i></a>
           <a href='?stop=true' class='btn btn-default'><i class='fa fa-stop'></i></a>
           <a href='?player=next' class='btn btn-default'><i class='fa  fa-step-forward'></i></a>
+          <a href='?volumeAdjust=10-' class='btn btn-default'><i class='fa  fa-minus'></i></a>
+          <a href='?volumeAdjust=10%2B' class='btn btn-default'><i class='fa  fa-plus'></i></a>
          </div>
        <p>&nbsp;</p>
        </div>
@@ -60,6 +62,8 @@
                      <option value='20'>20%</option>
                      <option value='30'>30%</option>
                      <option value='50'>50%</option>
+                     <option value='75'>75%</option>
+                     <option value='80'>80%</option>
                      <option value='85'>85%</option>
                      <option value='90'>90%</option>
                      <option value='95'>95%</option>
