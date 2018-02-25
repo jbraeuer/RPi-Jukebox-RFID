@@ -57,7 +57,7 @@ print "<pre><a href='".$conf['url_abs']."'>".$conf['url_abs']."</a></pre>"; //??
 
 // change volume
 if(isset($urlparams['volume'])) {
-    exec("/usr/bin/sudo amixer sset 'PCM' ".$urlparams['volume']."%");
+    exec("/usr/bin/sudo amixer sset 'Master' ".$urlparams['volume']."%");
     /* redirect to drop all the url parameters */
     header("Location: ".$conf['url_abs']);
     exit; 
